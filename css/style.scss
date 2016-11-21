@@ -1,3 +1,7 @@
+$primary: #9a9836;
+$secondary: #0c1f25;
+
+
 header {
 background-image: url(../images/birdseyebeach.jpeg);
 background-position: center;
@@ -9,12 +13,19 @@ height: 150px;
 }
 
 .search, .menu {
-  height: 75px;
+  height: 140px;
+  float: right;
+  padding-top: 2%;
+  margin: 0;
 }
 
 .container {
+  clear: both;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 2px solid $secondary;
 }
 
 .imagebox {
@@ -32,13 +43,59 @@ height: 150px;
 .imagebox img:hover {
   opacity: 1;
 }
+.recommendrow {
+  display: inline;
+  height: 200px;
+  width: 100%;
+  border-top: $primary;
+}
+
+.titlestext {
+  height: 150px;
+  width: 50%;
+  background-color: white;
+  padding-left: 8%;
+  padding-right: 8%;
+  float: left;
+
+.recbox {
+  height: 150px;
+  width: 8.33%;
+  float: right;
+  position: fixed;
+}
+
+.recbox img {
+  clear: both;
+  width: 100%;
+  height: 75px;
+  object-fit: contain;
+  position: relative;
+}
+
+// .2 img {
+//   height: 75px;
+//   width: 100%;
+// }
+
+
+}
+p {
+  font-size: 46px;
+font-family: sans-serif;
+text-transform: uppercase;}
+
 
 @media (max-width: 767px) {
   .imagebox {
     height: 100px;
     width: 25%;
   }
-  .hide {
+  .recbox {
+    height: 150px;
+    width: 25%;
+  }
+  .hide .2 {
     display: none;
   }
 }
