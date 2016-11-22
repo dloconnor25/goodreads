@@ -3,7 +3,7 @@ $secondary: #0c1f25;
 
 
 header {
-background-image: url(../images/clouds.jpeg);
+background-image: url(../images/beachedit.jeg);
 background-position: top;
 height: 150px;
 }
@@ -46,22 +46,23 @@ height: 150px;
 .recommendrow {
   clear: both;
   display: inline;
-  height: 200px;
+  height: 300px;
   width: 100%;
   border-top: $primary;
 }
 
 .titlestext {
-  height: 150px;
+  height: 300px;
   width: 50%;
   background-color: white;
   padding-left: 8%;
   padding-right: 8%;
   margin: 0 auto;
   box-sizing: border-box;
-  float: right;}
+  float: left;}
 
 .recbox {
+  clear:both;
   height: 150px;
   width: 16.66%;
   margin: 0 auto;
@@ -80,7 +81,6 @@ height: 150px;
 }
 
 .rowtwo {
-  clear: both;
   overflow: hidden;
   width: 50%;
 }
