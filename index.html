@@ -4,20 +4,50 @@
     <meta charset="utf-8">
     <title>Goodreads Prototype</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+
+    <link rel="stylesheet" href="css/remodal.css">
+    <link rel="stylesheet" href="css/remodal-default-theme.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
+
+
+<!-- USE THIS FOR BOOKSHELF QUICK VIEW BOX -->
+<!-- <img data-remodal-target="bookimage" src="images/1984.jpg">
+
+<div class="remodal" data-remodal-id="bookimage">
+  <p>This book was 5 star rated!<br>"I thought this book was very well written, telling a tale of a harsh time in history...." <br> Click for more reviews<br>Write a Review<br>Remove from "My Bookshelf"</p>
+</div> -->
+<!-- ^^^^^^^^^^^^^^^^ -->
+
+<!-- <a href="#modal">Call the modal with data-remodal-id="modal"</a> -->
+<!-- <div class="remodal" data-remodal-id="modal">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  <h1>WHOO SOME TEXT</h1>
+  <p>
+    Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+  </p>
+  <br>
+  <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+  <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+</div> -->
+
+<!-- THIS HE HEADER SECTION -->
 <header>
 <img src="images/logocopy.png" class="logo">
-<img src="icons/search.svg" class="search">
+<div class="right-icons">
+<img src="icons/search.png" class="search">
 <img src="icons/menu.png" class="menu">
+</div>
 </header>
 
 <div class="toptext">
+  <div class="topicons">
   <img src="icons/edit.svg" class="edit">
   <img src="icons/add.svg" class="add">
-  <p>my books</p>
+</div>
+  <p>my bookshelf</p>
  </div>
 
 <div class="container">
@@ -214,6 +244,9 @@
   </ul>
 </footer>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/remodal.min.js"></script>
 
 </body>
 </html>
