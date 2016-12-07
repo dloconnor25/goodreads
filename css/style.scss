@@ -13,34 +13,29 @@ overflow: hidden;
 }
 
 .logo {
-  height: 150px;
-  padding-bottom: 10px;
+  height: 200px;
+  padding-bottom: 25px;
   padding-left: 15px;
-  padding-top: 10px;
   box-sizing: border-box;
 }
 
 .menu {
  height: 60px;
+ padding-right: 3%;
   box-sizing: border-box;
 }
 .search {
   height: 65px;
-  padding-right: 1%;
+  padding-right: 4%;
    box-sizing: border-box;
 }
 .right-icons {
+  width: 160px;
+  height: 150px;
   padding-top: 4%;
-  padding-right: 3%;
-     box-sizing: border-box;
   float: right;
 }
 
-
-//
-// .menu img:hover {
-//
-// }
 
 
 .toptext {
@@ -391,18 +386,22 @@ a {
 
 
   .logo {
-    height: 150px;
+    height: 180px;
     padding-left: 5%;
     padding-top: 5%;
   }
 
+.right-icons {
+  width: 120px;
+  height: 150px;
+  padding-top: 18%;
+  float: right;
+}
   .menu {
-    height: 135px;
-    padding-top: 10%;
+    height: 40px;
   }
   .search {
-    height: 160px;
-    padding-top: 11%;
+    height: 43px;
   }
 
   .edit, .add {
