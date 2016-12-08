@@ -14,7 +14,7 @@ overflow: hidden;
 
 .logo {
   height: 200px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   padding-left: 15px;
   box-sizing: border-box;
 }
@@ -32,7 +32,7 @@ overflow: hidden;
 .right-icons {
   width: 160px;
   height: 150px;
-  padding-top: 4%;
+  padding-top: 60px;
   float: right;
 }
 
@@ -386,15 +386,18 @@ a {
 
 
   .logo {
-    height: 180px;
-    padding-left: 5%;
-    padding-top: 5%;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 15px;
+    box-sizing: border-box;
   }
 
 .right-icons {
-  width: 120px;
+  width: 115px;
   height: 150px;
-  padding-top: 18%;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
   float: right;
 }
   .menu {
@@ -612,4 +615,27 @@ display: none;
   .bottomrightone{
     display: none;
   }
+}
+
+@media  (min-width:768px) and (max-width:978px) {
+  .logo {
+    height: 200px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .right-icons {
+    box-sizing: border-box;
+    width: 130px;
+    height: 120px;
+    padding-top: 70px;
+    float: right;
+  }
+    .menu {
+      height: 50px;
+    }
+    .search {
+      height: 53px;
+    }
 }
